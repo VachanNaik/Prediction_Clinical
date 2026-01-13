@@ -39,7 +39,6 @@ colorama==0.4.6
 comm==0.1.4
 conda @ file:///croot/conda_1696257509808/work
 conda-content-trust @ file:///croot/conda-content-trust_1693490622020/work
-conda-libmamba-solver @ file:///croot/conda-libmamba-solver_1696257536937/work/src
 conda-package-handling @ file:///croot/conda-package-handling_1690999929514/work
 conda_package_streaming @ file:///croot/conda-package-streaming_1690987966409/work
 confection==0.1.1
