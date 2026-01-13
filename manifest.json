@@ -1,0 +1,201 @@
+{
+  "version": 1,
+  "locale": "en_US.UTF-8",
+  "metadata": {
+    "appmode": "python-shiny",
+    "entrypoint": "app"
+  },
+  "python": {
+    "version": "3.11.5",
+    "package_manager": {
+      "name": "pip",
+      "version": "23.2.1",
+      "package_file": "requirements.txt"
+    }
+  },
+  "files": {
+    "requirements.txt": {
+      "checksum": "e2f6d653eae980fed706439e5364c092"
+    },
+    "HINT/README.md": {
+      "checksum": "64a0766c5f9ba4d8c12c3f8744186be8"
+    },
+    "HINT/__init__.py": {
+      "checksum": "68b329da9893e34099c7d8ad5cb9c940"
+    },
+    "HINT/__pycache__/__init__.cpython-311.pyc": {
+      "checksum": "1327a2d10fb6ebea1ca209c9be80c374"
+    },
+    "HINT/__pycache__/__init__.cpython-312.pyc": {
+      "checksum": "7e81923c8da095aeb9403607e8bc0189"
+    },
+    "HINT/__pycache__/__init__.cpython-37.pyc": {
+      "checksum": "d00d58355b59d713d45502fc511ce142"
+    },
+    "HINT/__pycache__/dataloader.cpython-311.pyc": {
+      "checksum": "2721830c74e446aada62baadc9596d86"
+    },
+    "HINT/__pycache__/dataloader.cpython-312.pyc": {
+      "checksum": "1ce417e1c2839a783936f2d8720e7173"
+    },
+    "HINT/__pycache__/dataloader.cpython-37.pyc": {
+      "checksum": "6464ec8cf308e6767bf5027a392a5d41"
+    },
+    "HINT/__pycache__/gnn_layers.cpython-311.pyc": {
+      "checksum": "68144f9a16baedee65b6ddce7e7d8fa1"
+    },
+    "HINT/__pycache__/gnn_layers.cpython-37.pyc": {
+      "checksum": "7dfa96e864b329aba448f663d164fb07"
+    },
+    "HINT/__pycache__/icdcode_encode.cpython-311.pyc": {
+      "checksum": "6a2a2f0e93a9ed0088325da3b5c1aaae"
+    },
+    "HINT/__pycache__/icdcode_encode.cpython-37.pyc": {
+      "checksum": "b4001d5ee3a1dd2a0fc4557ed8fd85ee"
+    },
+    "HINT/__pycache__/model.cpython-311.pyc": {
+      "checksum": "964c2a89cb8a26f77ae12bd4e3b4337d"
+    },
+    "HINT/__pycache__/model.cpython-37.pyc": {
+      "checksum": "d16b193c7a8e18b2b44cdc315d30970d"
+    },
+    "HINT/__pycache__/module.cpython-311.pyc": {
+      "checksum": "95c6d64376f0addf355682c081865b99"
+    },
+    "HINT/__pycache__/module.cpython-37.pyc": {
+      "checksum": "616e42c6e6c6a7eb8ce28831a71a37f4"
+    },
+    "HINT/__pycache__/molecule_encode.cpython-311.pyc": {
+      "checksum": "afcc430df0126565be12d3d1eec6f380"
+    },
+    "HINT/__pycache__/molecule_encode.cpython-312.pyc": {
+      "checksum": "0d25d49890582406a388abca21bb897e"
+    },
+    "HINT/__pycache__/molecule_encode.cpython-37.pyc": {
+      "checksum": "c90c1114d3dc47d26d9cddab9cefa21f"
+    },
+    "HINT/__pycache__/protocol_encode.cpython-311.pyc": {
+      "checksum": "5cbea4da17b56411c84ea885e07ba7f1"
+    },
+    "HINT/__pycache__/protocol_encode.cpython-37.pyc": {
+      "checksum": "e84bbfd3a0dc7f5ef00967ae5a857445"
+    },
+    "HINT/__pycache__/utils.cpython-311.pyc": {
+      "checksum": "247b87249b8e394c8e8eaf51805eb98e"
+    },
+    "HINT/__pycache__/utils.cpython-37.pyc": {
+      "checksum": "59d450d4e2f206116f527ca36d8ffd76"
+    },
+    "HINT/dataloader.py": {
+      "checksum": "46a25a4e9e19ba554519ff1c3881171b"
+    },
+    "HINT/gnn_layers.py": {
+      "checksum": "39e7b332760cc96e33e76a758fcbffb1"
+    },
+    "HINT/hint.png": {
+      "checksum": "1e8eacce72b2de11f73f3f59661de6ff"
+    },
+    "HINT/icdcode_encode.py": {
+      "checksum": "6a1db42b23dc2b89ad0d912883d2b6ae"
+    },
+    "HINT/learn_indication.py": {
+      "checksum": "67463a063483e71f7f92d764bf4f8669"
+    },
+    "HINT/learn_multiple_aim.py": {
+      "checksum": "a900beca6a2cc512f33f4e85a897f8c4"
+    },
+    "HINT/learn_phaseI.py": {
+      "checksum": "b6468d829b75719a27391b4f18db8428"
+    },
+    "HINT/learn_phaseII.py": {
+      "checksum": "d55f40a9065b8c11d88d09f303bfd107"
+    },
+    "HINT/learn_phaseIII.py": {
+      "checksum": "a99b9eff8212424bf846649bd1ab7008"
+    },
+    "HINT/model.py": {
+      "checksum": "bf355ddd8b28a0171c6a3e1bf08dbae8"
+    },
+    "HINT/module.py": {
+      "checksum": "7780e81b5749886d387a26cf87b4b0ac"
+    },
+    "HINT/molecule_encode.py": {
+      "checksum": "a4d6c0ce18953c8cb715cd4730ed29a1"
+    },
+    "HINT/protocol_encode.py": {
+      "checksum": "6d4b175a02bf4c5ba09b51ca7cebe393"
+    },
+    "HINT/sponsor_inference.py": {
+      "checksum": "cbab32757fc84b7ef8c5ba9c9cf6a1c6"
+    },
+    "HINT/sponsor_predict.py": {
+      "checksum": "1ff31c05c78619debb2e633e53666606"
+    },
+    "HINT/utils.py": {
+      "checksum": "7d9800a6633da161416c4a75846a7396"
+    },
+    "app.py": {
+      "checksum": "8a7b11926c59265d3ec9669cde46e523"
+    },
+    "data/sentence2embedding.pkl": {
+      "checksum": "72a755383fba437e4dead6ff3e3d81e3"
+    },
+    "save_model/admet_model.ckpt": {
+      "checksum": "2dec34dfbd38d4097468fe6958419969"
+    },
+    "save_model/backup/10phase_II.ckpt": {
+      "checksum": "13129d840588062d38d98a453810ad65"
+    },
+    "save_model/backup/2phase_II.ckpt": {
+      "checksum": "ac1ae4331d50ad9846d579bba1ee5a18"
+    },
+    "save_model/backup/2phase_III.ckpt": {
+      "checksum": "c5ac91ff8c57211f3b4d449b4889c78b"
+    },
+    "save_model/backup/3phase_II.ckpt": {
+      "checksum": "9bc1e4e1e79c9dd3a58953e3cf3f245a"
+    },
+    "save_model/backup/3phase_III.ckpt": {
+      "checksum": "23e3632a95208b069e4ab01a0ceaf011"
+    },
+    "save_model/backup/4phase_II.ckpt": {
+      "checksum": "ad82a6133dd56e4e733e440ea56f4ebd"
+    },
+    "save_model/backup/4phase_III.ckpt": {
+      "checksum": "b76d66cccd21ece253c5e123633a2994"
+    },
+    "save_model/backup/5phase_II.ckpt": {
+      "checksum": "6e871ec8aa71c3055880198e64c179ee"
+    },
+    "save_model/backup/6phase_II.ckpt": {
+      "checksum": "fb0628a88a4a1a0899fae576281f4f95"
+    },
+    "save_model/backup/7phase_II.ckpt": {
+      "checksum": "3520d6a9a8c9369f0c645c3b856d4b5e"
+    },
+    "save_model/backup/8phase_II.ckpt": {
+      "checksum": "58be3fff0ddc454e1c9f684b6988ac7f"
+    },
+    "save_model/backup/9phase_II.ckpt": {
+      "checksum": "1b7881b6395dd22d21c8d5a76a7a4ead"
+    },
+    "save_model/phase_I.ckpt": {
+      "checksum": "9ab96e75d1bbd9b20139d4a01dd47469"
+    },
+    "save_model/phase_II.ckpt": {
+      "checksum": "1b7881b6395dd22d21c8d5a76a7a4ead"
+    },
+    "save_model/phase_III.ckpt": {
+      "checksum": "b76d66cccd21ece253c5e123633a2994"
+    },
+    "save_model/phase_III1.ckpt": {
+      "checksum": "c5ac91ff8c57211f3b4d449b4889c78b"
+    },
+    "save_model/phase_III_.ckpt": {
+      "checksum": "a72b852e8a3a5b672093c10d2f104535"
+    },
+    "save_model/toy.ckpt": {
+      "checksum": "3b6f3bad7e6f80a6c0c6a406e83871b4"
+    }
+  }
+}
